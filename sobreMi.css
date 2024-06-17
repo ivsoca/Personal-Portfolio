@@ -1,0 +1,108 @@
+
+
+body{
+    background-color:#15171a !important;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --black-color: #323232;
+    --white-color: #f7f7f7;
+  }
+
+  @font-face {
+    font-family: 'MyCustomFont';
+    src: url('./fonts/Rubik-Bold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'MyCustomFont2';
+    src: url('./fonts/Rubik-Light.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MyCustomFont3';
+    src: url('./fonts/Rubik-SemiBold.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .ivan-soca-icon{
+    font-family: "MyCustomFont2";
+    font-size: 25px;
+    color: white;
+    text-decoration: none; /* Quitar subrayado */
+    cursor: default; /* Quitar cursor pointer */
+  }
+
+  p{
+    font-family: MyCustomFont2;
+  }
+
+  h1{
+    font-family: MyCustomFont3;
+  }
+
+.blog-container{
+    color: white;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 60px;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    line-height: 1.6;
+    /* text-overflow: ellipsis;  */
+     /* white-space: nowrap;  */
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+}
+
+.parrafo-introduccion{
+    font-weight: bold;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center;
+}
+
+.footer-content p {
+  position: relative;
+    margin-bottom: -50px;
+    color: #9e9e9e;
+    padding: 10px 20px; /* Añade espacio entre el texto de copyright y los iconos */
+    font-size: 13px;
+    font-family: MyCustomFont2;
+}
+
+@media (max-width: 425px) {
+    .blog-container{
+        /* display: flex; */
+        color: white;
+        margin: 0 auto;
+        margin-top:30px;
+        padding-top: 60px;
+        font-size: 17px;
+        letter-spacing: 0.05em;
+        line-height: 1.6;
+    } 
+}
+
+@media screen and (min-width: 1440px) {
+    .blog-container{
+        /* display: flex; */
+        color: white;
+        height: 500px;
+        width: 700px;
+        margin: 0 auto;
+        margin-top:30px;
+        
+    }
+  }
+
