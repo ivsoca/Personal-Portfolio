@@ -14,9 +14,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 <body>
-
-           
-       
+   
 
     <!-- Contenido de nav -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #252525;">
@@ -48,10 +46,11 @@
         <h1 id="h1-mi-nombre" class="text-beggining display-4 display-md-1 animate__animated animate__fadeInDown">Hello,</h1>
         <div class="h2-mi-nombre">
           <h1 class="h1-iam ">I´m Ivan Soca</h1>
+          <a href=""></a>
            <h3 class="parrafo-mi-nombre">Web developer junior base in the area of frontend.</h3>
-           <button class="social-logos"> <img src="./assets/githublogo.png" style="width: 20px; background-color: black;"> GitHub</button>
-           <button class="social-logos"> <img src="./assets/ilinkedin.webp" style="width: 20px; background-color: black;"> Linkedin</button>
-           <button class="social-logos"> <img src="./assets/Insta-Logo-PNG-Pic.png" style="width: 20px; background-color: black;"> Instagram</button>
+           <button class="social-logos" onclick="window.location.href='https://github.com/ivsoca';"> <img src="./assets/githublogo.png" style="width: 20px; height: 20px; background-color: black;"> GitHub</button> 
+           <button class="social-logos" onclick="window.location.href='https://www.linkedin.com/in/ivan-soca-b17321295/';"> <img src="./assets/ilinkedin.webp" style="width: 20px; height: 20px; background-color: black;"> Linkedin</button>
+           <button class="social-logos" onclick="window.location.href='https://www.instagram.com/socaaaaa/';"> <img src="./assets/Insta-Logo-PNG-Pic.png" style="width: 20px; height: 20px; background-color: black;"> Instagram</button>
         </div>        
         </div>
       
@@ -61,35 +60,43 @@
         <div class="container all-container">
         <div class="sobre-mi">
         <div class="container about-me" id="sobreMi">
-            <h1 class="h1">About me</h1>
+            <h1 class="h1 spacing-letters-titles">About me</h1>
             <hr class="line">
             <p class="parrafo-linea"></p>
-            <p class="parrafo-sobre-mi">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+            <p class="paragraph-after-title">Here you can discover more about me, my work, and my current programming and technology skills.</p>
         </div>
 
     <div class="container cajas-container" id="container">
-      <div class="caja">
-        <h2 class="about-me-titles">Me</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe optio placeat illum culpa, laborum repudiandae beatae molestias libero minus facilis nihil rerum vitae iusto quibusdam repellendus. Cum quis velit temporibus?</p>
-        <h2 class="about-me-titles">Hola</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus vel nemo fuga ex ad repellat, nisi eius vitae expedita totam qui repudiandae iste explicabo provident quidem libero sed rem? Asperiores!</p>
+      <div class="caja caja-about-me">
+        <h2 class="about-me-titles"><span>Front-end</span> Developer</h2>
+        <p>Hello! I'm Iván Soca, a passionate <strong>Front-End Developer</strong>  with a keen eye for design and a love for crafting beautiful, user-friendly websites. </p>
+        <p>With a strong foundation in <strong>HTML, CSS, and JavaScript</strong>, I create responsive and interactive web applications that provide an exceptional user experience.</p>
+        <p>Explore this space to learn about my background, my work, and the technical skills I bring to the table. I am eager to find job opportunities where I can make an impact, expand my knowledge, and advance my career.</p>
       </div>
       <div class="caja cajaSkills">
         <h2 class="about-me-titles">Skills</h2>
         <div class="about-me-skills">
-          <button>HTML</button>
+          <!-- <button>HTML</button>
           <button>Css</button>
           <button>JavaScript</button>
           <button>Bootstrap</button>
           <button>React</button>
           <button>Postman</button>
-          <button>MariaDB</button>
+          <button>MariaDB</button> -->
+          <img class="it-icons" src="./icons/html.png" style="width: 50px; height: 50px;" alt="">
+          <img class="it-icons" src="./icons/css-3.png" style="width: 50px; height: 50px;" alt="">
+          <img class="it-icons" src="./icons/js.png" style="width: 50px; height: 50px;" alt="">
+          <img class="it-icons" src="./icons/science.png" style="width: 50px; height: 50px;" alt="">
+          <img class="it-icons" src="./icons/bootstrap.png" style="width: 50px; height: 50px;" alt="">
+          <img class="it-icons" src="./assets/githublogo.png" style="width: 50px; height: 50px;" alt="">
         </div>
         <h2 class="about-me-titles">Soft skills</h2>
         <div class="about-me-skills">
-          <button>Comunicacon</button>
-          <button>Trabajo en equipo</button>
-          <button>habilidades sociales</button>
+          <button>Communication</button>
+          <button>Teamwork</button>
+          <button>Problem-solving</button>
+          <button>Adaptability</button>
+          <button>Creativity</button>
         </div>
       </div>
     </div>
@@ -98,30 +105,31 @@
   <!-- Seccion Projectos -->
 
 <div class="container project" id="project">
-  <h1 >Projects</h1>
+  <h1 class="spacing-letters-titles">Projects</h1>
   <hr class="line">
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, expedita?</p>
+  <p class="paragraph-after-title">Explore a selection of my personal projects, each crafted to foster my continual growth and learning journey</p>
 </div>
 
 
 <div class="container projectos" id="projectos">
   <div class="projectos-in">
   <div class="caja2">
-    <img src="./21blackjack.png" class="img-fluid " style="width: 500px; border-radius: 10px;">
+    <img src="./assets/21blackjack.png" class="img-fluid" style="border-radius: 10px;">
+    <div class="imagen"></div>
   </div>
   <div class="caja2">
     <h2>21 Black Jack</h2>
-    <p class="caja2-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste debitis molestiae eveniet rerum impedit deleniti,  blanditiis tempora? Sunt quisquam facere eligendi qui et laborum.</p>
+    <p class="caja2-parrafo">21 Blackjack is a card game that replicates to test my programming and logical skills. Click below to see the project!</p>
     <button class="btn btn-danger">See my project!</button>
   </div>
 </div>
 <div class="projectos-in">
   <div class="caja2">
-    <img src="./21blackjack.png" class="img-fluid " style="width: 500px; border-radius: 10px;">
+    <img src="./assets/cuestionarios2.png" class="img-fluid" style="border-radius: 10px;">
   </div>
   <div class="caja2">
-    <h2>21 Black Jack</h2>
-    <p class="caja2-parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste debitis molestiae eveniet rerum impedit deleniti,  blanditiis tempora? Sunt quisquam facere eligendi qui et laborum.</p>
+    <h2>Questionnaires</h2>
+    <p class="caja2-parrafo">A questionnaire of questions that I put together to study with my classmates for a course exam.</p>
     <button class="btn btn-danger">See my project!</button>
   </div>
 </div>
@@ -130,7 +138,7 @@
     <!-- Contacto -->
 
     <div class="container mt-5 contact" id="contact">
-        <h2 class="h2-contact">Contact me!</h2>
+        <h2 class="h2-contact spacing-letters-titles">Contact me!</h2>
         <form>
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
@@ -143,21 +151,41 @@
           <div class="mb-3">
             <label for="message" class="form-label">Message</label>
             <textarea class="form-control" id="message" placeholder="Your Message" rows="5" required></textarea>
-          <button type="submit" class="btn btn-danger">Send</button>
+          <button type="submit" class="btn btn-danger btn-lg">Submit</button>
           </div>
         </form>
       </div>
-
     </div>
 
-      <footer>
+      <!-- <footer>
         <div class="footer-content">
             <p>&copy; 2024 Made. by Iván Soca</p>
             <div class="social-icons">
-                <!-- Agrega más enlaces de redes sociales según sea necesario -->
             </div>
         </div>
+    </footer> -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-section info">
+            <h2>Contact</h2>
+            <p>Email: ivansoca26@gmail.com</p>
+            <p>Teléfono: +123 456 7890</p>
+          </div>
+          <div class="footer-section social">
+            <h2>Social</h2>
+            <a href="https://www.linkedin.com" target="_blank"><img src="./assets/ilinkedin.webp" alt="LinkedIn"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="./assets/githublogo.png" alt="gitHub"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./assets/Insta-Logo-PNG-Pic.png" alt="Instagram"></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Made. by Iván Soca</p>
+        </div>
+      </div>
     </footer>
+    
 
     <!-- js particles -->
 
