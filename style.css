@@ -273,6 +273,11 @@ p{
       text-align: center;
     }
 
+    .projects-ahref{
+      text-decoration: none;
+      color: white;
+    }
+
     footer {
       color: var(--white-color);
       transition: background-color 0.5s, color 0.5s;
