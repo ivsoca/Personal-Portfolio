@@ -17,7 +17,7 @@ html, body {
   --black-caja-about-me: #191919;
   --black-caja-about-me-hover: #232323;
   transition: background-color 0.5s, color 0.5s;
-
+  
 }
 
 .dark-theme{

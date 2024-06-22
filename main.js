@@ -10,9 +10,9 @@ icon.onclick = function() {
   // Cambiar el ícono después de que la animación de desvanecimiento termine
   setTimeout(() => {
     if (document.body.classList.contains("dark-theme")) {
-      icon.src = "./assets/dark theme icon/sun.png";
-    } else {
       icon.src = "./assets/dark theme icon/moon.png";
+    } else {
+      icon.src = "./assets/dark theme icon/sun.png";
     }
     
     // Remover la clase de desvanecimiento y añadir la de aparición
