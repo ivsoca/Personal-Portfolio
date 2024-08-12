@@ -1,24 +1,5 @@
 const content = {
   es: `
-         <div class="blog-container" >
-          <h1>Sobre mi
-          <img src="./assets/Banderas/español.png" class="flags" onclick="changeLanguage('es')" alt="">
-            <img src="./assets/Banderas/ingles.png" class="flags" onclick="changeLanguage('en')" alt="">
-            </h1>
-          <br>
-          <br>
-          <p class="parrafo-introduccion">Un poquito sobre quien soy</p>
-          <br>
-           <p class="cutoff-text">¡Hola! Soy Iván Soca, un apasionado <strong>Desarrollador Front-End</strong> con un buen ojo para el diseño y un amor por crear sitios web hermosos y fáciles de usar.</p>
-            <p>Con una sólida base en <strong>HTML, CSS y JavaScript</strong>, creo aplicaciones web responsivas e interactivas que brindan una experiencia de usuario excepcional.</p>
-            <p>Explora este espacio para conocer mi trayectoria, mi trabajo y las habilidades técnicas que aporto. Estoy ansioso por encontrar oportunidades laborales donde pueda tener un impacto, expandir mis conocimientos y avanzar en mi carrera.</p>
-
-              <a href="./blog-pages/blog.html"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i></a> 
-          <div class="col-12 text-center">
-          </div>
-         
-    `,
-  en: `
    
         
          <div class="blog-container">
@@ -36,6 +17,26 @@ const content = {
           <div class="col-12 text-center">
           </div>
         
+    `,
+
+  en: `
+         <div class="blog-container" >
+          <h1>Sobre mi
+          <img src="./assets/Banderas/español.png" class="flags" onclick="changeLanguage('es')" alt="">
+            <img src="./assets/Banderas/ingles.png" class="flags" onclick="changeLanguage('en')" alt="">
+            </h1>
+          <br>
+          <br>
+          <p class="parrafo-introduccion">Un poquito sobre quien soy</p>
+          <br>
+           <p class="cutoff-text">¡Hola! Soy Iván Soca, un apasionado <strong>Desarrollador Front-End</strong> con un buen ojo para el diseño y un amor por crear sitios web hermosos y fáciles de usar.</p>
+            <p>Con una sólida base en <strong>HTML, CSS y JavaScript</strong>, creo aplicaciones web responsivas e interactivas que brindan una experiencia de usuario excepcional.</p>
+            <p>Explora este espacio para conocer mi trayectoria, mi trabajo y las habilidades técnicas que aporto. Estoy ansioso por encontrar oportunidades laborales donde pueda tener un impacto, expandir mis conocimientos y avanzar en mi carrera.</p>
+
+              <a href="./blog-pages/blog.html"><i class="fa-solid fa-arrow-left" style="color: #ffffff;"></i></a> 
+          <div class="col-12 text-center">
+          </div>
+         
     `,
 };
 
